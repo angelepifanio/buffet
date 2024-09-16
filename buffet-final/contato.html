@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Espaço e Estrutura do Buffet Infantil</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body class="Contatocss">
+    <div class="hearder">
+
+        <img src="imagens/logo-buffet.png" alt="" class="logo">
+
+        <div class="nav">
+
+            <ul class="menu">
+               
+                <li><a href="index.html" class="button">Home</a></li>
+
+                <li><a href="contato.html" class="button">Contatos</a></li>
+
+                <li><a href="cardapio.html" class="button">Cardápio</a></li>
+
+                <li><a href="sobre.html" class="button">Sobre</a></li>  
+
+            </ul>
+        </div>
+    </div>
+    
+
+    <section>
+
+    <h1>Deseja entrar em contato?</h1>
+
+    <form action="">
+        <label>Nome</label>
+        <input type="text" name="name" placeholder="Digite seu nome">
+        <label>Email</label>
+        <input type="email" name="email" placeholder="Digite seu email">
+        
+        <label>Data que deseja</label>
+        <input type="date" name="date" placeholder="Selecione a data">
+        
+    <div class="opcoes">
+        <label for="doce">Doces  </label>
+        <input type="number" name="opção" value="doce" placeholder="Quantidade de convidados">
+    </div>
+
+    <div class="opcoes">
+        <label for="doce">Carnes</label>
+        <input type="number" name="opção" value="carne" placeholder="Quantidade de convidados" min="50">
+    </div>
+    
+    <div class="opcoes">
+        <label for="doce">Bebidas</label>
+        <input type="number" name="opção" value="bebidas" placeholder="Quantidade de convidados">
+    </div>
+        <label>Mensagem</label>
+        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea>
+        
+        <button type="submit">Enviar</button>
+        </form>
+    </section>
+    
+</body>
+</html>
